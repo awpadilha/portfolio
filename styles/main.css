@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     padding: 10px;
     padding-left: 10px;
@@ -7,8 +17,8 @@ header {
     margin: 50px;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+fieldset {
+    border: 0;
 }
 
 #wrapper {
@@ -33,31 +43,27 @@ body {
 
 #contato p{
     text-align: center;
-    margin: 100px;
-}
-
-.conteudo {
-    margin: auto;
-    align-items: center;
+    padding: 50px;
 }
 
 header div p {
     text-align: center;
 }
 
-.conteudo1 {
-    width: 150px;
-    height: 150 px;
-    flex-direction: column;
-
+.nome {
+    text-align: center;
+    width: 660px;
+    margin: 0 auto;
+    background: cornflowerblue;
 }
 
-.conteudo2 {
-    width: 150px;
-    height: 150 px;
-   flex-direction: column   
+#texto {
+    text-align: center;
+    width: 660px;
+    margin: 0 auto;
+    background:cyan
 }
 
-.footer {
-    position: center;
+#footer {
+    text-align: center;
 }
