@@ -41,29 +41,47 @@ fieldset {
 
 }
 
-#contato p{
+
+#area-principal {
+    width: 920px;
+}
+
+#area-principal p{
     text-align: center;
     padding: 50px;
+    
 }
 
 header div p {
     text-align: center;
 }
 
+
 .nome {
     text-align: center;
-    width: 660px;
+    width: 400px;
     margin: 0 auto;
     background: cornflowerblue;
+    float: left;
 }
 
 #texto {
     text-align: center;
-    width: 660px;
+    width: 400px;
     margin: 0 auto;
-    background:cyan
+    background:cyan;
+    float: right;
+}
+
+#button2 {
+    padding: auto;
+    margin: auto;
+    align-items: center;
 }
 
 #footer {
     text-align: center;
+    padding: 15px;
+    background: green;
+    clear: both;
 }
