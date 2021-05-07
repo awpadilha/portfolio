@@ -46,18 +46,45 @@ fieldset {
     width: 920px;
 }
 
-#area-1 p{
+.area-1 {
     text-align: center;
-    padding: 50px;
-    
+    width: 400px;
+    margin: 0 auto;
+    background: cornflowerblue;
+    float: left;
+    align-items: center;
 }
+
+#area-2 {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    background:cyan;
+    float: right;
+}
+
+#button2 {
+    padding: auto;
+    margin: auto;
+    align-items: center;
+    background: chartreuse;
+}
+
+#footer {
+    text-align: center;
+    padding: 15px;
+    background: green;
+    clear: both;
+
+/*
+
 
 header div p {
     text-align: center;
 }
 
 
-.nome {
+.area-2 {
     text-align: center;
     width: 400px;
     margin: 0 auto;
@@ -86,4 +113,4 @@ header div p {
     padding: 15px;
     background: green;
     clear: both;
-}
+}*/
