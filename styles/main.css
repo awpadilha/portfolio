@@ -41,12 +41,16 @@ fieldset {
 
 }
 
+header div p {
+    text-align: center
+}
 
 #area-principal {
     width: 920px;
+    margin: 0 auto;
 }
 
-.area-1 {
+#area-1 {
     text-align: center;
     width: 400px;
     margin: 0 auto;
@@ -64,6 +68,7 @@ fieldset {
 }
 
 #button2 {
+    margin: 10px;
     padding: auto;
     margin: auto;
     align-items: center;
@@ -75,42 +80,4 @@ fieldset {
     padding: 15px;
     background: green;
     clear: both;
-
-/*
-
-
-header div p {
-    text-align: center;
 }
-
-
-.area-2 {
-    text-align: center;
-    width: 400px;
-    margin: 0 auto;
-    background: cornflowerblue;
-    float: left;
-    align-items: center;
-}
-
-#area-2 {
-    text-align: center;
-    width: 400px;
-    margin: 0 auto;
-    background:cyan;
-    float: right;
-}
-
-#button2 {
-    padding: auto;
-    margin: auto;
-    align-items: center;
-    background: chartreuse;
-} 
-
-#footer {
-    text-align: center;
-    padding: 15px;
-    background: green;
-    clear: both;
-}*/
