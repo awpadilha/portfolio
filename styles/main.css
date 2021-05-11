@@ -13,7 +13,6 @@ body {
 header {
     padding: 10px;
     padding-left: 10px;
-
     margin: 50px;
 }
 
@@ -38,7 +37,6 @@ fieldset {
     max-width: 500px;
     margin: 32px auto;
     line-height: 34px;
-
 }
 
 header div p {
@@ -68,15 +66,14 @@ header div p {
 }
 
 #button2 {
-    margin: 10px;
-    padding: auto;
-    margin: auto;
+    margin: 0 auto;
     align-items: center;
     background: chartreuse;
 }
 
 #footer {
     text-align: center;
+    margin: 0 auto;
     padding: 15px;
     background: green;
     clear: both;
