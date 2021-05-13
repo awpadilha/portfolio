@@ -20,18 +20,18 @@ fieldset {
     border: 0;
 }
 
-#wrapper {
+#texto {
     text-align: center; 
     padding: 32px;
 }
 
-#wrapper img {
+#texto img {
     border-radius: 50%;
     padding: 32px;
     width: 300px;
 }
 
-#wrapper p {
+#texto p {
     font-size: 20px;
     text-align: left;
     max-width: 500px;
@@ -44,7 +44,7 @@ header div p {
 }
 
 #area-principal {
-    width: 920px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -65,14 +65,19 @@ header div p {
     float: right;
 }
 
-#button2 {
+#button2 button{
+    text-align: center;
+    width: 200px;
+    padding: 15px;
     margin: 0 auto;
+    background:grey;
+    float: right;
     align-items: center;
-    background: chartreuse;
-}
+} 
 
 #footer {
     text-align: center;
+    width: 400;
     margin: 0 auto;
     padding: 15px;
     background: green;
